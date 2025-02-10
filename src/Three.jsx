@@ -12,7 +12,7 @@ const userInput=(event)=>{
 
   return (
     <div>
-     <input type="text" onChange={userInput}/>
+     <input type="text" value={input} onChange={userInput}/>
      <p>User input: {input}</p>
     </div>
   )
